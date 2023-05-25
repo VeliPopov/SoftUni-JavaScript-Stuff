@@ -13,4 +13,4 @@ function petShop(input) {
 
 }
 
-c(["13", "9"]);
+petShop(["13", "9"]);
