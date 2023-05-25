@@ -1,5 +1,5 @@
 function walking(input) {
-    let steps = 10_000 //оше в началото е хардкодната целта
+    let steps = 10000 //оше в началото е хардкодната целта
     let allSteps = 0
    
     for (let i = 0; i < input.length; i++) {
