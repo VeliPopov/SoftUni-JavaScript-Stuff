@@ -5,7 +5,7 @@ function demo(arr) {
     let capitals = ['Sofia', 'Washington', 'London'];
 
     for (let el of capitals) {
-        //създай елемент за всеки едни елемент от мосива
+        //създай нов елемент за всеки едни елемент от мaсива
         console.log(el);
     }
 
