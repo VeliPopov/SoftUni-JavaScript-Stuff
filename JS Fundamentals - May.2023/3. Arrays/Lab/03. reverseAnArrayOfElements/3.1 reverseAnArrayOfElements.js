@@ -16,4 +16,4 @@ function reverseAnArrayOfNumbers(n, arr) {
 reverseAnArrayOfNumbers(3, [10, 20, 30, 40, 50])
 
 
-//най-доброто решение
+//по-доброто решение
