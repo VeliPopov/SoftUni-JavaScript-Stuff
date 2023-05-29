@@ -20,7 +20,7 @@ function gladiatorExpenses(lostFightsCount, helmetPrice, swordPrice, shieldPrice
 }
 gladiatorExpenses(23, 12.50, 21.50, 40, 200)
 
-//проверките са независими една от друга, тъй като по условие, има проверки, които са едновремено валидни - дават TRUE едновремено
+//проверките са независими една от друга, тъй като по условие, има проверки, които са едновременно валидни - дават TRUE едновременно
 
 
 // • Every second lost game, his helmet is broken.
