@@ -1,0 +1,7 @@
+Advanced functionality of the array consists of the following functions:
+▪ push() – add to the end
+▪ pop() – remove from the end
+▪ unshift() – add to the beginning
+▪ shift() – remove from the beginning
+▪ includes() – look for value
+▪ indexOf() – find index of value
