@@ -1,0 +1,7 @@
+▪ JavaScript has 7 data types that are copied by value:
+   ▪ Boolean, String, Number, null, undefined, Symbol, BigInt
+      ▪ These are primitive types
+
+▪ JavaScript has 3 data types that are copied by having their reference copied:
+    ▪ Array, Objects, and Functions
+      ▪ These are all technically Objects, so we'll refer to them collectively as Objects

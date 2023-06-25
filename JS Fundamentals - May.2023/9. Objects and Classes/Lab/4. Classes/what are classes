@@ -1,0 +1,10 @@
+▪ Templates for creating objects
+ Класът ни дава възможност да създаваме обикти по шаблон.
+
+▪ Defines structure and behavior
+ Дефинираме стуктората и поведението на всеки един от обектите, които ще имаме.
+
+▪ An object created by the class pattern is called an an instance of that class
+▪ A class has a constructor – method called automatically to create an object
+    ▪ It prepares the new object for use
+    ▪ Can receive parameters and assign them to properties
