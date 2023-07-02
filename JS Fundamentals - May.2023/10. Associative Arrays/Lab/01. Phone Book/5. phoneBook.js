@@ -7,11 +7,12 @@ function phoneBook(data) {
         object[name] = number;
 
     }
-    for (const key in object) {
-        console.log(`${key} -> ${object[key]}`);
+    for (let [key, value] of Object.entries(object)) {
+        console.log(`${key} -> ${value}`);
     }
 
-    // винаги последния запис взема превес - презаписва стойността зад подаден ключ със същото име
+    // същия резултат като 2-ро решение
+    // for of цикъла вади двойки ключ и стойност
 
 }
 phoneBook(['Tim 0834212554',

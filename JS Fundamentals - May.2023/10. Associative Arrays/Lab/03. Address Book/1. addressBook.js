@@ -4,8 +4,7 @@ function addressBook(params) {
 
     for (let info of params) {
         let [name, address] = info.split(':');
-
-        addressBook[name] = address;
+        addressBook[name] = address; 
     }
 
     let sortedNames = Object.keys(addressBook).sort();

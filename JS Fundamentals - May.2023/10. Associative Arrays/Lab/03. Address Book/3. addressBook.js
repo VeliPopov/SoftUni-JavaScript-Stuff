@@ -7,12 +7,11 @@ function addressBook(data) {
         object[name] = address;
     }
 
-    let entries = Object.entries(object).sort(([keyA, valueA], [keyB, valueB]) => keyA.localeCompare(keyB));
-
-    for (let [key, value] of entries) {
-        console.log(`${key} -> ${value}`);
+    let entries = Object.entries(object).sort((a,b) => a[0].localeCompare(b[0]));
+    // a[1].localeCompare(b[1]) - сортира ги по value
+    for (let key of entries) {
+        console.log(`${key[0]} -> ${key[1]}`);
     }
-
 
 }
 

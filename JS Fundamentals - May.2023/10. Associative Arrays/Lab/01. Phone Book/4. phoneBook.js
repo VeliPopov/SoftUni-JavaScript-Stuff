@@ -4,14 +4,18 @@ function phoneBook(data) {
 
     for (let element of data) {
         let [name, number] = element.split(' ');
-        object[name] = number;
-
+        if (object.hasOwnProperty(name)) {
+            delete object[name];
+        } else {
+            object[name] = number;
+        }
+ 
     }
     for (const key in object) {
         console.log(`${key} -> ${object[key]}`);
     }
 
-    // винаги последния запис взема превес - презаписва стойността зад подаден ключ със същото име
+    // с изтриване на съвпадаща нова подавана стойност (ключ)
 
 }
 phoneBook(['Tim 0834212554',
