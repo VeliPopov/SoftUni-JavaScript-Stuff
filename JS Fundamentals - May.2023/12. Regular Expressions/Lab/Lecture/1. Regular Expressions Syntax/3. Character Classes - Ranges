@@ -1,0 +1,8 @@
+▪ [nvj]+ matches any character that is either n, v or j
+node.js v0.12.2
+
+▪ [^abc] – matches any character that is not a, b or c
+Abraham
+
+▪ [0-9] – character range: matches any digit from 0 to 9
+John is 8 years old.

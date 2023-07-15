@@ -1,0 +1,18 @@
+▪ * – matches the previous element zero or more times
+\+\d* +359885976002 a+b
+
+
+▪ + – matches the previous element one or more times
+\+\d+ +359885976002 a+b
+
+
+▪ ? – matches the previous element zero or one time
+\+\d? +359885976002 a+b
+
+
+▪ {3} – matches the previous element exactly 3 times
+\+\d{3} +359885976002 a+b
+
+
+
+

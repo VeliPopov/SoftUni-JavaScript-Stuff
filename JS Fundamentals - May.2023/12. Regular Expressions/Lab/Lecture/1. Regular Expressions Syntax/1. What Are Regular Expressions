@@ -1,0 +1,6 @@
+▪ Regular expressions (RegExp)
+▪ Match text by pattern
+▪ Patterns are defined by special syntax, e.g.
+▪ [0-9]+ matches non-empty sequence of digits
+▪ [A-Z][a-z]* matches a capital + small letters
+▪ Play with regexp live at: regexr.com, regex101.com

@@ -1,0 +1,9 @@
+▪ \number – matches the value of a numbered capture group
+
+<(\w+)[^>]*>.*?<\/\1>
+
+<b>Regular Expressions</b> are cool!
+<p>I am a paragraph</p> … some text after
+Hello, <div>I am a<code>DIV</code></div>!
+<span>Hello, I am Span</span>
+<a href="https://softuni.bg/">SoftUni</a>

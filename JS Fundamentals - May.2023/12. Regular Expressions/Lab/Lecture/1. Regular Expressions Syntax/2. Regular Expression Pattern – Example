@@ -1,0 +1,7 @@
+▪ Regular expressions (RegExp) describe a search pattern
+▪ Used to find / extract / replace / split data from text by pattern
+
+[A-Z][a-z]+ [A-Z][a-z]+
+John Smith
+Linda Davis
+Contact: Alex Scott

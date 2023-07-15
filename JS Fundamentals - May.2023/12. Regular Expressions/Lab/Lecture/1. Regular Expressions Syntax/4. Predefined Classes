@@ -1,0 +1,6 @@
+▪ \w – matches any word character (a-z, A-Z, 0-9, _)
+▪ \W – matches any non-word character (the opposite of \w)
+▪ \s – matches any white-space character
+▪ \S – matches any non-white-space character (opposite of \s)
+▪ \d – matches any decimal digit (0-9)
+▪ \D – matches any non-decimal character (the opposite of \d)

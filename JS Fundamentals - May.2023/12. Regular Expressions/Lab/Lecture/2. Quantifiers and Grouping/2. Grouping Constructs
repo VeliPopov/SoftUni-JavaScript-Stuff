@@ -1,0 +1,14 @@
+▪ (subexpression) – captures the matched subexpression as numbered group
+\d{2}-(\w{3})-\d{4} 22-Jan-2015
+/[0-9]{2}-([A-Z][a-z]{3})-\d{4}
+
+
+▪ (?:subexpression) – defines a non-capturing group
+^(?:Hi|hello),\s*(\w+)$ Hi, Peter
+
+
+▪ (?<name>subexpression) – defines a named capturing group
+(?<day>\d{2})-(?<month>\w{3})-(?<year>\d{4}) 22-Jan-2015
+
+
+
